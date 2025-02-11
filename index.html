@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Activity Quiz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Noah's Website</h1>
-    <p>This is a test website.</p>
+
+    <div class="quiz-container">
+        <h1>What should we do?</h1>
+        <div id="question-container">
+            <!-- Questions will be dynamically inserted here -->
+        </div>
+        <button id="next-btn" onclick="nextQuestion()" style="display: none;">Next</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
